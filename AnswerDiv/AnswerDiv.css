@@ -1,0 +1,41 @@
+.correct {
+    background-color: green;
+    color: #FFDD4A;
+}
+
+.incorrect {
+    background-color: red;
+    color: #FFDD4A;
+}
+
+.notClick {
+    color: #6b6375;
+    background-color: white;
+}
+
+.notClick,
+.correct,
+.incorrect {
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    background: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+}
+
+.notClick:hover {
+    border-color: #93c5fd;
+    background: #f0f7ff;
+}
+
+.correct {
+    border-color: #22c55e;
+    background: #dcfce7;
+}
+
+.incorrect {
+    border-color: #ef4444;
+    background: #fee2e2;
+}
